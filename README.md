@@ -1,5 +1,9 @@
 Sistemas multimídia
 ===================
+
+Como iniciar a aplicação:
+> - Execute a classe src\com\br\view\TelaInicial.java
+
 Implementações 
 > - Processamento de imagens <i>(filtros, operações.)</i>
 
