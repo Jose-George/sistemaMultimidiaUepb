@@ -128,22 +128,22 @@ public class TelaFiltros extends JPanel {
 		botaoSobel.setBounds(470, 137, 200, 82);
 		add(botaoSobel);
 		
-		JButton botaoPassaAlta = new JButton("Passa alta");
-		botaoPassaAlta.addActionListener(new ActionListener() {
+		JButton botaoAltoReforco = new JButton("Alto Reforço");
+		botaoAltoReforco.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent eventoDeMouse) {
 				
-				TelaFiltroAltoReforco passa = new TelaFiltroAltoReforco();
+				TelaFiltroAltoReforco altoR = new TelaFiltroAltoReforco();
 				TelaInicial.contentPane.removeAll();
-				TelaInicial.contentPane.add(passa);
+				TelaInicial.contentPane.add(altoR);
 				TelaInicial.contentPane.validate();
 				TelaInicial.contentPane.repaint();
 			}
 		});
-		botaoPassaAlta.setForeground(SystemColor.text);
-		botaoPassaAlta.setFont(new Font("Segoe UI Light", Font.BOLD, 18));
-		botaoPassaAlta.setBackground(new Color(0, 102, 255));
-		botaoPassaAlta.setBounds(728, 137, 200, 82);
-		add(botaoPassaAlta);
+		botaoAltoReforco.setForeground(SystemColor.text);
+		botaoAltoReforco.setFont(new Font("Segoe UI Light", Font.BOLD, 18));
+		botaoAltoReforco.setBackground(new Color(0, 102, 255));
+		botaoAltoReforco.setBounds(728, 137, 200, 82);
+		add(botaoAltoReforco);
 		
 		JButton botaoPrewitt = new JButton("Prewitt");
 		botaoPrewitt.addActionListener(new ActionListener() {
