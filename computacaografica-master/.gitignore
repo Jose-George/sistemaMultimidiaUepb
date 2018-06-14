@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-*.class
-=======
-*.class
->>>>>>> origin/master
+/nbproject/private/
+/build/
+/dist/
