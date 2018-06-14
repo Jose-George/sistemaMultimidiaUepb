@@ -11,5 +11,6 @@ Implementações
 >- Implementação do filtro de alto reforço: frequência da imagem. 
 >- Implementação do operador de adição de imagens. 
 
-- 2º entrega - previsão
->- Operador de subtração 
+- 2º entrega - 
+>- Filtro de prewitt
+>- Filtro de sobel
