@@ -15,17 +15,18 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.SwingConstants;
 
-import com.br.algoritmos.Panel_Filtros_AltoReforco;
 import com.br.processarImagem.PanelDaImagem;
 import com.br.view.PanelInicial;
 import com.br.view.TelaInicial;
 import com.br.view.operadores.TelaOperadores;
 
+import src.com.br.algoritmos.Panel_Filtros_AltoReforco;
+
 
 public class TelaFiltroAltoReforco extends JPanel {
 
 	PanelDaImagem panelDaImagem1 = new PanelDaImagem();
-	Panel_Filtros_AltoReforco panelDaImagem2 = new Panel_Filtros_AltoReforco();
+	src.com.br.algoritmos.Panel_Filtros_AltoReforco panelDaImagem2 = new Panel_Filtros_AltoReforco();
 
 	public TelaFiltroAltoReforco() {
 		setSize(1024, 720);

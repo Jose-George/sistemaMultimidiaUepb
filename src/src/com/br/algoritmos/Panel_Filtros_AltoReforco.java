@@ -1,4 +1,4 @@
-package com.br.algoritmos;
+package src.com.br.algoritmos;
 
 import java.awt.Color;
 import java.awt.Graphics;
